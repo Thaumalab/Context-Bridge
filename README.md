@@ -1,53 +1,22 @@
 # 🪄 Context Bridge by ThaumaLab
 
-> **The "Save State" for AI Conversations.** > Bridge the gap between interrupted sessions, context limits, and multi-platform AI workflows without losing the "soul" of your project.
+**Context Bridge** is a high-fidelity productivity utility designed to solve the "memory loss" problem that occurs when AI chat sessions hit context limits or message quotas. It acts as a vendor-agnostic "save state," allowing you to package the essential intelligence of a conversation and resume work across any model—including Claude, GPT-4o, and Gemini—without losing momentum.
 
----
+## 🚀 Key Features
 
-## 🚀 The Vision
-In a world of daily message quotas and context window constraints, **Context Bridge** ensures your project's momentum is never lost. It acts as a high-fidelity "Relay" that packages the essential intelligence of an AI conversation into a structured, vendor-agnostic handoff.
-
-## ✨ Founder's Edition Features
-
-### 🔒 Privacy Vault
-Local-first intelligence. Automatically redacts sensitive data, API keys, and credentials before they ever reach the next AI session. 
-
-### 🛡️ Semantic Conflict Guard
-Prevents "AI Drift." Explicitly flags previously rejected paths and failed attempts in the handoff, ensuring the new AI adheres to established project logic.
-
-### 📉 SmartTrim™ Truncation
-Instead of raw cutting, our engine extracts structural signatures (imports, class definitions, and key comments) to preserve maximum context using minimum tokens.
-
-### 📊 Token-to-Cost Dashboard
-Live visibility into your development efficiency. Real-time cost estimates and "Context Window" safety gauges for Claude, GPT-4o, and Gemini.
-
-### 🔗 Collaborative Relay
-Generate compressed, encoded project links to share stateful AI contexts with teammates in one click.
-
----
+* **SmartTrim™ Truncation:** Instead of raw cutting, the engine intelligently extracts code structure—preserving imports, function signatures, and key comments—to save up to **30% in tokens** while maintaining logic.
+* **Semantic Conflict Guard:** Protects your "source of truth" by explicitly flagging previously rejected paths or failed logic to the new AI, preventing redundant suggestions and "AI drift".
+* **Privacy Vault:** A local-first security layer that automatically identifies and redacts sensitive data, such as emails or API keys, before the handoff ever leaves your machine.
+* **Target AI Optimization:** Tailors the handoff prompt specifically for the receiving model (e.g., XML for Claude or Markdown for GPT) to ensure native-level instruction following.
+* **Collaborative Relay:** Encodes the entire project state into a compressed "Relay Link," allowing you to share a stateful AI context with a teammate in one click.
+* **Context Safety Gauge:** A live, color-coded bar (Green → Amber → Red) that alerts you when the handoff is approaching the specific context limit of your target AI.
+* **Live Cost Estimator:** Real-time USD input cost estimates based on current provider rates (e.g., $0.003 per 1k tokens for Claude).
 
 ## 🛠️ Tech Stack
-* **Architecture:** Vanilla HTML5 / CSS3 / ES6 Logic (Single-file portability)
-* **Intelligence:** Pattern-matching heuristic extractors for cross-model compatibility
-* **Persistence:** `localStorage` project slots for multi-project management
-* **UI:** Claude-inspired functional minimalism with high-speed Pydroid/Android optimization
+
+* **Logic:** Vanilla ES6+ JavaScript, Python, and Go.
+* **Frontend:** Functional minimalism built with HTML5 and CSS3.
+* **Deployment:** Optimized for desktop and mobile (**Pydroid/Android**) with full PWA support.
 
 ---
-
-## 📖 How to Use
-1. **Paste:** Drop your raw conversation text into the Input Pane.
-2. **Build:** Hit `Ctrl + Enter` to generate the structured handoff.
-3. **Target:** Select your next AI (Claude, GPT, or Gemini) to optimize the opening prompt.
-4. **Relay:** Copy the secure handoff and resume work instantly.
-
----
-
-## 🏗️ Part of the ThaumaLab Ecosystem
-Context Bridge is the flagship utility of **ThaumaLab**. We are building a series of tools focused on bridging the gap between human intent and machine execution.
-
-* **Kathai Malar:** Immersive AI-driven storytelling.
-* **Stillness App:** Digital zen and sleep optimization.
-
----
-
-*“Any sufficiently advanced productivity tool is indistinguishable from magic.”* **Developed by [Your Name/Handle] @ ThaumaLab**
+Developed by **ThaumaLab**
